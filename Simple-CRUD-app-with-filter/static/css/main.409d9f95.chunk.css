@@ -1,0 +1,2 @@
+*{margin:0;padding:0;box-sizing:border-box}.app{margin:0 auto;max-width:400px;display:flex;flex-direction:column;font-family:sans-serif}button{width:80px}ul{list-style:none}li{margin:10px 0;padding:5px;align-items:center;background-color:#ccc;border-radius:20px}.edit-mode,.search,li{display:flex}.input{border-radius:0 0 10px 10px;background-color:grey}.text-field{padding:5px;flex:1 1}.filter{margin:10px;display:flex;justify-content:center}.list-text{padding-left:5px}.right{margin-left:auto;display:inline-flex}
+/*# sourceMappingURL=main.409d9f95.chunk.css.map */
