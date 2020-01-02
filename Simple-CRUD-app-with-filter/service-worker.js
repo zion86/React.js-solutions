@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "zion86.github.io/React.js-solutions/Simple-CRUD-app-with-filter/precache-manifest.d73cdc9d53a20d7423f9e48482500eba.js"
+  "/React.js-solutions/Simple-CRUD-app-with-filter/precache-manifest.4af192c60ba7cbb5d7df8bd8892fbf3f.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("zion86.github.io/React.js-solutions/Simple-CRUD-app-with-filter/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/React.js-solutions/Simple-CRUD-app-with-filter/index.html"), {
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
